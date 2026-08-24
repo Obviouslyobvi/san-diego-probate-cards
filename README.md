@@ -10,7 +10,10 @@ repository renders the art and pushes it, filed by the day it was mailed:
     cards/YYYY-MM-DD/fronts/<case number>_front.png
     cards/YYYY-MM-DD/back-<option>.png
 
-Anything older than two weeks is deleted on the next run.
+Anything that has been here more than two weeks is deleted on the next
+run. Age is counted from when the art was committed, not from the date in
+its directory name - those are usually the same day and occasionally are
+not.
 
 ## What is in these images
 
